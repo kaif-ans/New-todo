@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+  background-image: linear-gradient(to left, rgb(105, 243, 105) , rgb(47, 181, 235));
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+                          /* INPUT STYLING */
+.input-div {
+  border-radius: 9px;
+  padding: 12px;
+  background: rgba(238, 234, 234, 0.637);
+}
+input {
+  width: 600px;
+  height: 40px;
+  padding: 12px;
+  box-sizing: border-box;
+  font-size: larger;
+  border-radius: 9px;
+  border: none;
+}
+label {
+  position: relative;
+}
+.add-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 40px;
+  margin: auto 10px;
+  height: 30px;
+  border-radius: 9px;
+  border: none;
+  background: rgb(104, 104, 104);
+  color: white;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+                         /* TODO'S STYLING */
+.todos-div {
+  margin-top: 5%;
+  /* border: 1px solid black; */
+  background: rgba(238, 234, 234, 0.637);
+  border-radius: 9px;
+  padding: 15px;
+}
+.todo-reset {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo-reset > button {
+  width: 80px;
+  height: 35px;
+  font-size: large;
+  border-radius: 9px;
+  border: none;
+  background: rgb(104, 104, 104);
+  color: #eee;
+  cursor: pointer;
+}
+
+                     /* LIST STYLING */
+.full-list {
+ margin-top: 3%;
+ /* border: 1px solid black; */
+ background: #eee;
+ border-radius: 9px; 
+}
+.list-heading {
+  /* border: 1px solid black; */
+  padding: 10px;
+  border-radius: 9px 9px 0px 0px ;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(92, 21, 224);
+  color: white;
+}
+li {
+  list-style: none;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.check-box {
+  width: 15px;
+  cursor: pointer;
+}
+
+.pencil {
+  font-size: larger;
+  cursor: pointer;
+}
+.trash {
+  font-size: larger;
+  cursor: pointer;
+}
+
+.edit-input {
+  width: 150px;
+}
