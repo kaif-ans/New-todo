@@ -37,10 +37,8 @@ function App() {
 
   function editList(id) {
     setList((prevValue) =>
-                //Edited List
-      prevValue.map((el) =>
-        el.id === id ? { ...el, isEdit: !el.isEdit } : el
-      )
+      //Edited List
+      prevValue.map((el) => (el.id === id ? { ...el, isEdit: !el.isEdit } : el))
     );
   }
 
