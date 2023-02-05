@@ -10,6 +10,7 @@ function App() {
   function handleChange(event) {
     setInput(event.target.value);
   }
+  
   function handleChangeList(event, id) {
     setList((prevValue) =>
       prevValue.map((todo) =>
