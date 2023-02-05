@@ -8,7 +8,6 @@ function App() {
   const pending = list.filter((td) => td.isChecked === false);
 
  
-  
   function handleChange(event) {
     setInput(event.target.value);
   }
