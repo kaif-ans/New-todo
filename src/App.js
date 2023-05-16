@@ -87,6 +87,7 @@ function App() {
             <span>Status</span>
             <span> </span>
           </div>
+
           <section>
             {list.length > 0 &&
               list.map((td, i) => (
@@ -128,6 +129,7 @@ function App() {
                 </li>
               ))}
           </section>
+
         </div>
       </div>
     </div>
